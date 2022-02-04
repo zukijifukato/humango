@@ -56,10 +56,10 @@ const humango = (date) => {
 					res = `${diff} ${(diff === 1) ? 'day ago' : 'days ago' }`;
 				}
 			} else {
-				res = `${months[prev.getMonth()-1]} ${prev.getDate()}`;
+				res = `${months[prev.getMonth()]} ${prev.getDate()}`;
 			}
 		} else {
-			res = `${months[prev.getMonth()-1]} ${prev.getDate()}, ${prev.getFullYear()}`;
+			res = `${months[prev.getMonth()]} ${prev.getDate()}, ${prev.getFullYear()}`;
 		}
 
 		return addOn(res);
