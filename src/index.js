@@ -21,7 +21,7 @@ const addOn = (diff) => {
  */
 const humango = (date) => {
 	try {
-		const months = ['Jan', 'Feb', 'Mar', 'Apr', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+		const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 		const prev = new Date(date);
 		const now = new Date();
